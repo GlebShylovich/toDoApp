@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 170px;
+}
+.form select{
+  height: 21.33px;
+  width: 100%;
+  outline: none;
+}
+.form input{
+  outline: none;
+  max-width: 100%;
+}
+.form input::placeholder{
+  color: black;
+}
+.form button{
+  width: 100%;
+}
+
+.filter{
+  width: 170px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.filter select{
+  width: 100%;
+  outline: none;
+  height: 21.33px;
+}
+.filter button{
+  width: 100%;
+}
